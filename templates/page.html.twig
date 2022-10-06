@@ -1,0 +1,27 @@
+{#
+/**
+ * @file
+ * Template for the CiviCRM admin page.
+ */
+#}
+  <header class="content-header clearfix">
+    <div class="layout-container">
+      {{ page.breadcrumb }}
+      {{ page.header }}
+    </div>
+  </header>
+
+  <div id="page">
+    {{ page.pre_content }}
+    <main class="page-content clearfix" role="main">
+      <div class="visually-hidden"><a id="main-content" tabindex="-1"></a></div>
+      {{ page.highlighted }}
+      {% if page.help %}
+        <div class="help">
+          {{ page.help }}
+        </div>
+      {% endif %}
+      {{ page.content }}
+    </main>
+
+  </div>

@@ -1,0 +1,26 @@
+/**
+ * Overrides Seven's styles for CiviCRM.
+ */
+body .toolbar-menu {
+  height: auto !important;
+}
+
+#page {
+  padding: 20px 0 40px 0;
+}
+
+.breadcrumb ol {
+  display: flex;
+}
+
+.breadcrumb ol li {
+  display: flex;
+}
+
+.breadcrumb ol li:before {
+  margin-right: .5rem;
+}
+
+.breadcrumb ol li + li {
+  margin-left: .5rem;
+}

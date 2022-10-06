@@ -1,0 +1,6 @@
+customizations:
+  version: VERSION
+  css:
+    component:
+      css/seven_roundearth.style.css: {}
+      css/seven_roundearth.civicrm.css: {}
